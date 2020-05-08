@@ -1,0 +1,119 @@
+
+/**********************************************
+*** GENERAL
+**********************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    background-color: #add8e6;
+}
+
+ol {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+#wrapper {
+    
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    overflow: hidden;
+    
+}
+
+
+.casella{
+    
+    display:inline-block;
+    width: 10%;
+    height: 100%;
+}
+
+
+.sfondoBianco{
+    background: #fff;
+}
+
+.sfondoNero{
+    background: black;
+}
+
+.alt_10{
+   height: 10%;
+}
+
+#gioca{
+    width: 150px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.display{
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translateX(-50%);
+    width: 400px;
+    
+    border: 1px solid black;
+}
+
+.pulsanti{
+    height: 60px;
+}
+
+.pulsanti img{
+    max-width: 100%; 
+    max-height:100%
+}
+
+.pulsanti img:hover{
+    cursor: pointer;
+}
+
+.caselle input{
+   font-size: 1.1em;
+}
+
+#warning, #impostaPassi{
+    border: none;
+    background: transparent;
+}
+
+#impostaPassi{
+    width: 60px;
+    text-align: center;
+}
+
+#warning{
+    width: 300px;
+    color: blue;
+
+}
+
+
+
+
+
+
+
+
+
