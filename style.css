@@ -16,12 +16,14 @@
     clear: both;
 }
 
-body {
-    background-color: #add8e6;
+
+html, body {
+    height: 100%;
+    width: 100%;
 }
 
 ol {
-    margin-top: 40px;
+    margin-top: 100px;
     margin-left: 40px;
 }
 
@@ -69,29 +71,30 @@ ol {
 .display{
     position: absolute;
     left: 50%;
-    top: 5%;
+    top: 1%;
     transform: translateX(-50%);
-    width: 400px;
+    width: 500px;
     
     border: 1px solid black;
 }
 
-.pulsanti{
+.display{
     height: 60px;
+    width: 500px;
+    display: flex;
+    align-items: center;
 }
 
-.pulsanti img{
+.display img{
     max-width: 100%; 
     max-height:100%
 }
 
-.pulsanti img:hover{
+.display img:hover{
     cursor: pointer;
 }
 
-.caselle input{
-   font-size: 1.1em;
-}
+
 
 #warning, #impostaPassi{
     border: none;
@@ -99,13 +102,18 @@ ol {
 }
 
 #impostaPassi{
-    width: 60px;
-    text-align: center;
+    width: 50px;
+    text-align: left;
+    font-size: 1.1em;
+    margin-left: 5px;
 }
 
 #warning{
     width: 300px;
     color: blue;
+    margin-left: 5px;
+    font-size: 1em;
+  
 
 }
 
